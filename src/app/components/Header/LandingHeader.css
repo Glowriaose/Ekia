@@ -149,11 +149,11 @@ header {
   .menu {
     flex-direction: column;
     position: absolute;
-    left: 0;
+
     right: 0;
-    top: 80px;
-    padding: 0 var(--app-block-padding);
-    background-color: #000000;
+    top: -2%;
+    padding: 2rem;
+    color: white;
   }
   .menu ul {
     display: none;
@@ -162,6 +162,7 @@ header {
 
   ul.mobile {
     display: block;
+    padding-inline: 2rem;
   }
   .menu ul li {
     padding: 10px 0;
@@ -171,5 +172,23 @@ header {
   }
   .menu li.hidden-mobile {
     display: none;
+  }
+
+  .moving-text {
+    display: none;
+  }
+
+  .shipping .moving-text {
+    display: none;
+  }
+  .search-bar,
+  .search-icon {
+    height: 39px;
+    width: 30%;
+    display: none;
+  }
+  .section2 {
+    max-width: 100%;
+    margin-left: 0;
   }
 }

@@ -134,14 +134,15 @@ export const LandingHeader = ({ searchInput }) => {
           <Logo />
         </div>
 
-        <img
-          className='menu-icon'
-          src={MenuIcon}
-          onClick={toggleMenu}
-          fill='black'
-        />
         <SearchBar searchInput={searchInput} />
+
         <div className='menu'>
+          <img
+            className='menu-icon'
+            src={MenuIcon}
+            onClick={toggleMenu}
+            fill='black'
+          />
           <HeaderNavigation className={showMenu ? 'mobile' : ''} />
         </div>
       </header>

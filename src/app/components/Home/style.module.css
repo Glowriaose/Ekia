@@ -110,3 +110,19 @@
     background-image: url('../../assets/images/male-shirt.png');
   }
 }
+@media (max-width: 500px) {
+  .details {
+    margin-inline: auto;
+  }
+
+  .details h2 {
+    font-size: 0.5rem;
+    width: 400px;
+  }
+
+  .details h2 span {
+    font-size: 0.5rem;
+    width: 400px;
+    text-transform: capitalize;
+  }
+}
