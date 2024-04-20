@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.hero {
+  padding: 2rem 2.8rem;
+  width: 100%;
+  background-attachment: #e3edf6;
+  background: #fff9f3;
+}
+.hero .container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hero .details {
+  margin-top: 8%;
+  margin-left: 2rem;
+}
+
+.hero .details h2 {
+  color: #ed6112;
+  font-size: 2.2rem;
+  margin-right: 20%;
+  margin-bottom: 2.8rem;
+  text-transform: capitalize;
+}
+
+.hero .details span {
+  color: #000;
+  font-size: 2.2rem;
+  margin-right: 50%;
+  margin-bottom: 2.8rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.hero .details .link {
+  margin-top: 1.25rem;
+  padding: 0.63rem 1.25rem;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #ed6112;
+  color: #fff;
+  border: 1px solid #ed6112;
+  outline: none;
+  transition: 0.5s;
+  font-weight: 600;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.15s);
+}
+
+.hero .details .link:hover {
+  background-color: black;
+  color: #ed6112;
+  border: 1px solid black;
+}
+
+.hero .details .link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.description-img {
+  background-position: cover;
+  background-size: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  overflow: hidden;
+  flex: 1;
+  animation: imageTransition 5s infinite;
+  position: relative;
+  width: 100%;
+  margin-left: 3rem;
+  margin-top: 5rem;
+}
+
+.description-img img {
+  width: 100%;
+  height: auto;
+}
+
+.advert-logo {
+  position: absolute;
+  left: 40%;
+  bottom: 140px;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 160px;
+}
+
+@keyframes imageTransition {
+  10% {
+    background-image: url('../../assets/images/intro-wear.png');
+  }
+  35% {
+    background-image: url('../../assets/images/tatoo.png');
+  }
+  50% {
+    background-image: url('../../assets/images/vintage.png');
+  }
+  75% {
+    background-image: url('../../assets/images/black-gown.png');
+  }
+  100% {
+    background-image: url('../../assets/images/male-shirt.png');
+  }
+}

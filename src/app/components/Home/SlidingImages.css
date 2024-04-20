@@ -1,0 +1,32 @@
+.image-container {
+  overflow: hidden;
+  display: block;
+  max-width: 30%;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.slide {
+  top: 0;
+  left: 100%;
+  display: none;
+  width: 100%;
+  height: auto;
+  animation: slide 3s infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
+
+.slide:first-child {
+  display: block; /* Show the first image initially */
+}

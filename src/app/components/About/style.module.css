@@ -1,0 +1,40 @@
+.products {
+  padding: 2.5rem 3rem;
+  max-width: 100%;
+}
+
+.products .list {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.products .item {
+  padding: 0.63rem 1.5rem;
+  display: flex;
+  background-color: #ecf2f7;
+  width: 250px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 270px;
+  height: 90px;
+}
+
+.products .item .icon {
+  color: #ed6112;
+  font-size: 1rem;
+  margin-top: 0.63rem;
+}
+
+
+.products .item .product-details{
+  margin-top: 0.63rem;
+  margin-left: 0.63rem;
+}
+.products .item .product-details h3{
+ color: #010f1c;
+}
+
+
+.products .item .product-details p{
+ color: #010f1c;
+}
